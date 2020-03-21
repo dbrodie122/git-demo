@@ -3,7 +3,7 @@ import moment from 'moment'
 
 export default function Nav() {
   return (
-    <nav>
+    <nav className="someotherclassname">
       <div>
         Current time is {moment(new Date()).format('MM Do YYYY hh:MM:ss A')}
       </div>
