@@ -5,8 +5,10 @@ export default function Nav() {
   return (
     <nav>
       Current Time: {moment(new Date()).format('MM Do YYYY hh:MM:ss A')}
-      <a>Home</a>
-      <a>About</a>
+      <div className='flexed'>
+        <a>Home</a>
+        <a>About</a>
+      </div>
     </nav>
   );
 }
