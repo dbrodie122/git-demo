@@ -8,8 +8,8 @@ export default function Nav() {
         Current time is {moment(new Date()).format('MM Do YYYY hh:MM:ss A')}
       </div>
       <nav className='flex-nav'>
-        <a>Home</a>
-        <a>About</a>
+        <div>Home</div>
+        <div>About</div>
       </nav>
     </React.Fragment>
   );
