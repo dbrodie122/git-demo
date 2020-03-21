@@ -6,10 +6,9 @@ export default function Nav() {
     <nav>
       <div>
         Current time is {moment(new Date()).format('MM Do YYYY hh:MM:ss A')}
-
       </div>
-      <section>Home</section>
-      <section>About</section>
+      <div>Home</div>
+      <div>About</div>
     </nav>
   );
 }
