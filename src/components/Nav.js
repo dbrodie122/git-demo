@@ -1,14 +1,16 @@
 import React from 'react';
-import moment from 'moment'
+import moment from 'moment';
 
 export default function Nav() {
   return (
-    <nav className="someotherclassname">
+    <React.Fragment>
       <div>
         Current time is {moment(new Date()).format('MM Do YYYY hh:MM:ss A')}
       </div>
-      <div>Home</div>
-      <div>About</div>
-    </nav>
+      <nav className='flex-nav'>
+        <div>Home</div>
+        <div>About</div>
+      </nav>
+    </React.Fragment>
   );
 }

@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flex-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.flex-row a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: rebeccapurple;
+}
